@@ -1,2 +1,2 @@
-# template_example
-An example of a simple material application using Android Studio Material Template
+# Uvita Risk
+A material application using Android Studio Material Design
