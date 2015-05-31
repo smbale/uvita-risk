@@ -27,6 +27,8 @@ public class StatsFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        /*
         List<String> content = new ArrayList<>();
         content.add("list");
         content.add("list");
@@ -37,5 +39,7 @@ public class StatsFragment extends Fragment {
         content.add("list");
         ListView listView = (ListView) getActivity().findViewById(R.id.listView);
         listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, content));
+        */
     }
+
 }

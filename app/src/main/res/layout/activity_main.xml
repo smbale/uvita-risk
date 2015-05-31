@@ -20,7 +20,18 @@
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:clickable="true"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="316dp"
+                android:layout_height="789dp"
+                android:id="@+id/imageView2"
+                android:background="@drawable/indexscale"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_toStartOf="@+id/imageView"
+                android:layout_gravity="center" />
+        </FrameLayout>
     </LinearLayout>
     <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
     <com.myapps.materialapplication.ScrimInsetsFrameLayout
